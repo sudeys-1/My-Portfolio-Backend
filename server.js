@@ -9,7 +9,7 @@ app.use(cors())
 
 const MassagesSchema =require("./model/Messages")
 // Connect to MongoDb And Server
-mongoose.connect("mongodb://localhost:27017/Protfoio").then(()=>{
+mongoose.connect("mongodb+srv://sudeysimaxamud5:OQD5HLzUqvgtDz10@myportfolio.vfd7b.mongodb.net/?retryWrites=true&w=majority&appName=MyPortfolio").then(()=>{
     console.log("Connected Has Been Successfully")
 }).catch((err)=>{
     console.log(err)
